@@ -1,5 +1,7 @@
 {
   "name": "DestinationTravelDzMobile",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

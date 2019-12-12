@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthServiceService } from '../service/auth-service.service';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
-
+  constructor(private auth:AuthServiceService) {}
+  onClick(){
+    //this.auth.createNewUser('riad@gmail.com','123587').then();
+  }
 }
